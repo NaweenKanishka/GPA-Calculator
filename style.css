@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: white;
+}
+body{
+    background-color: rgb(224, 224, 224);
+}
+.header-container{
+    max-width: 1400px;
+    padding: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container h1{
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 30px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-nav{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav nav{
+    display: flex;
+    
+}
+main{
+    max-width: 1400px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.free-premium, .name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    height: 80px;
+    padding: 30px;
+}
+.free{
+    border: 1px solid rgb(172, 172, 172);
+    padding: 10px 30px;
+}
+.GPA-calculator-area{
+    width: 100%;
+    min-height: 400px;
+    padding: 30px;
+}
+.instruction-area{
+    border-top: 1px solid rgb(172, 172, 172);
+    padding: 30px;
+}
+.instruction-area h1{
+    margin: 2rem auto 0.5rem auto;
+    letter-spacing: -.01rem;
+    
+}
+.instruction-area p{
+    letter-spacing: -.01rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.instruction-area ol, ul{
+    line-height: 2rem;
+    padding-left: 30px;
+    margin-bottom: 2rem;
+}
+.instruction-area table{
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+}
+.instruction-area table th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.table{
+    padding: 0 30px 30px 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.table table{
+    width: auto;
+    border-collapse: collapse;
+}
+.table table th, .table table td{
+    padding: 10px 40px;
+    border: 1px solid rgb(172, 172, 172);
+}
+.GPA-calculator-area form select{
+    padding: 10px 30px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#gpaTable {
+    border-collapse: collapse;
+    margin: 2rem 0 2rem 0;
+}
+#gpaTable th{
+    background-color: rgb(218, 218, 218);
+}
+ .table th{
+    background-color: rgb(41, 41, 102);
+    color: white;
+ }
+#gpaTable tr{
+    height: 40px;
+}
+#gpaTable th,
+#gpaTable td {
+    padding: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    font-size: 1.1rem;
+}
+#gpaTable input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+#gpaTable td {
+    padding: 0;
+}
+#gpaTable td:last-child {
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.remove-btn {
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    line-height: 1;
+}
+.controls input{
+    padding: 10px;
+    width: 200px;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: green;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+    scale: 1.1;
+}
+.btn2{
+    padding: 20px;
+    background-color: rgb(128, 0, 0);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: rgb(165, 0, 0);
+}
+.btn0{
+    padding: 20px;
+    background-color: rgb(0, 9, 128);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    transition: 0.5s;
+}
+.btn0:hover{
+    background-color: rgb(39, 39, 255);
+}
+.gpaDisplay{
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 40px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+.uniname{
+    font-weight: bold;
+}
+.nnnn{
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: auto;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    height: 51px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+.source{
+    padding: 30px;
+}
+
